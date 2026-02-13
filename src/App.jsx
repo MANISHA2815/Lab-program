@@ -4,11 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Greeting from './compontents/welcome/Greeting'
 import { Calculator } from './compontents/calc/calculator'
+import UserList from './compontents/fetching API/UserList'
 
 function App(){
   const [count, setCount]=useState()
   return(
-    <Calculator/>
+    <UserList/>
   )
 }
 
